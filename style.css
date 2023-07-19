@@ -1,0 +1,54 @@
+body {
+    font-family: sans-serif;
+    box-sizing: border-box;
+  }
+  
+  .app {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    border-radius: 0.5rem;
+  }
+  
+  #todo-form input {
+    padding: 0.2rem;
+  }
+  
+  .btn {
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 0.25rem;
+    padding: 0.2rem 0.4rem;
+    cursor: pointer;
+  }
+  
+  #todo-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+  }
+  
+  #todo-list li {
+    padding: 0.5rem;
+    margin: 0.2rem 0;
+    list-style: none;
+    background-color: yellow;
+    color: black;
+    width: 10rem;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0.25rem;
+  }
+  
+  #todo-list li button {
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: brown;
+    color: white;
+  }
+  
